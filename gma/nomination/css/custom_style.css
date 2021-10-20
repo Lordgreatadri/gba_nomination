@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.navbar .navbar-brand{
+	font-family: 'Squada One', cursive;
+	font-size: 30px;
+}
+
+
+.container-fluid{
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+.bg-trans{
+	background-color: transparent !important;
+}
+
+#header-section{
+	/*
+	background: url("../assets/img/b2.jpg");;
+	color: #fff;
+	background-size: cover;
+	background: black;
+	background-image: url("../assets/img/b2.jpg");
+	background-size: cover;
+	background-color: rgba(black, 0.5);
+	*/
+	border-bottom: 1px solid #ffffff;
+	position: relative;
+    /*transform: skewY(-3deg);*/
+}
+
+#header-section::before,
+#header-section::after{
+	content: '';
+	position: absolute;
+	transform: skewY(-3deg);
+	bottom: -50px;
+	height: 100px;
+	width: 100%;
+	background: white;
+}
+
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)), url("../assets/img/Banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+}
+
+/*this applys to register page*/
+.bg-overlay_register {
+	/*margin-right: 25px;*/
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../assets/img/Banner.jpg");
+    background-repeat: no-repeat;
+    background-size: fit;
+    background-position: center center;
+    color: #fff;
+}
+/*end */
+
+.navbar-nav .nav-item .nav-link{
+	color: #fca901 !important;
+	font-family: 'Public Sans', sans-serif;
+	font-size: 16px;
+}
+
+#experience{
+	font-family: 'Bungee', cursive; 
+}
+
+#tag-line{
+	font-family: 'Sawarabi Gothic', sans-serif;
+	font-size: 30px;
+	letter-spacing: 1.5px;
+	line-height: 50px;
+}
+
+#find-out-more{
+	color: #6e6e6f;
+	font-family: 'Sawarabi Gothic', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.bg-black{
+	background-color: #000000 !important;
+}
+
+
+
+/*style for circle*/
+.circle0 {
+  max-width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff !important;
+  text-align: center !important;
+  background: #fff;
+  opacity: .5rem;
+}
+
+.circle {
+  max-width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff !important;
+  text-align: center !important;
+  background: #65ccfa;
+}
+
+.circle2 {
+  max-width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff !important;
+  text-align: center !important;
+  background: #763395;
+}
+
+
+.circle3 {
+  max-width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff !important;
+  text-align: center !important;
+  background: #f6c022;
+}
+
+
+.circle4 {
+  max-width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: #fff !important;
+  text-align: center !important;
+  background: #e35a76;
+}
+
+.bg-blue{
+	background: #4e0011;
+}
+/*#0057ff*/
+
+/*end of style for circle*/
+
+
+
+@media (max-width: 360px) {
+	#tag-line{
+		display: none;
+	}
+}
+
+
+/*form card*/
+
+.form-card{
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 3px 10px #efefef;
+	padding: 20px;
+	margin: 10px;
+	color: #333;
+}
+/*end of form card*/
+
+/*---------------------------------*/
+
+/*inputs for form*/
+.form-cont input[type='text'],
+.form-cont input[type='checkbox'],
+.form-cont input[type='file'],
+.form-cont input[type='date'],
+.form-cont input[type='email'],
+.form-cont select{
+	
+	/*border: 0;*/
+	border-bottom: 1px solid #b4becb;
+	width: 100%;
+	padding: 3px;
+	font-size: 16px;
+	border-radius: 4px;
+	outline: none;
+	box-shadow: none;
+}
+
+.form-cont input[type='file'] btn{
+	background-color: red;
+}
+
+.form-cont select{
+	outline: 1px !important;
+	box-shadow: 1px !important;
+}
+
+/* end of input form*/
+
+
+
+/*utility style for asterisk*/
+.red{
+	color: red;
+}
+/*end of utility style for asterisk*/
+
+/*style for loading gif*/
+
+
+.loading-gif {
+	position: fixed;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    background-color: #ffffff;
+}
+
+
+/*end of style for loading gif*/
+
+
+
+
+
+
+.bkimg{
+	 background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("../assets/img/back2.png");
+    background-repeat: no-repeat;
+    background-size: fit;
+    background-position: center center;
+    color: #fff;
+}
+
+/*start of carousel*/
+ .hi-slide { position: relative; width: 754px; height: 292px; margin: 115px auto 0; }
+            
+.hi-slide .hi-next,
+.hi-slide .hi-prev 
+            { position: absolute;
+              top: 50%; 
+              width: 70px;
+              height: 70px; 
+              margin-top: -20px;     
+                border-radius: 50px; 
+                 padding-top: 8px;
+              
+
+              line-height: 40px;
+              text-align: center; 
+              cursor: pointer;
+              background-color: #fff; 
+              color: black;               
+              transition: all 0.7s;
+              font-size: 40px; 
+                font-weight: bold;
+            }
+
+   .hi-slide .hi-next:hover, 
+    .hi-slide .hi-prev:hover 
+    {
+	    opacity: 3; 
+	    padding-top: 4px;
+	    text-align: center;
+	    background-color:#4e0011;  /*#fff */
+	    color: #0057ff;
+	    font-size: 60px;
+	    border-radius: 100%;
+    }
+    
+   .hi-slide .hi-prev { left: -70px; }
+            
+    .hi-slide .hi-prev::before { content: '<'; }
+    .hi-slide .hi-next { right: -70px; }
+    .hi-slide .hi-next::before { content: '>'; }
+    
+            .hi-slide > ul
+                    { 
+                        list-style: none; 
+                        position: relative;
+                        width: 754px; 
+                        height: 292px; 
+                        margin: 0;
+                        padding: 0;
+            }
+            
+            
+        .hi-slide > ul > li {
+            overflow: hidden; 
+            position: absolute; 
+            z-index: 0; 
+            left: 377px;
+            top: 146px; 
+            width: 0; 
+            height: 0; 
+            margin: 0; 
+            padding: 0;
+            border: 3px solid #fff;              
+            background-color: #333; 
+            cursor: pointer; }
+            
+        .hi-slide > ul > li > a > img { width: 100%; height: 100%; background-position: center;}
+
+/* end of carousel*/
