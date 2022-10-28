@@ -2,9 +2,9 @@
     require_once 'config.php';
     session_start();
     // $db_host = '127.0.0.1';
-    // $db_name = 'akim';//
-    // $db_username = 'root';//Mc 
-    // $pass_word = '# ~';//$databasePassword;//' (3P^ ';//#4kLxMzGurQ7Z~
+    // $db_name = 'akim';
+    // $db_username = '';
+    // $pass_word = '';//$databasePassword;
     // $charset = 'utf8mb4';
     // $server_path = "mysql:host=".$db_host.";dbname=".$db_name.";charset=".$charset;
     // $connect = new PDO($server_path, $db_username, $pass_word);//"mysql:host=localhost;dbname=behind_voice;charset=utf8","root",""
