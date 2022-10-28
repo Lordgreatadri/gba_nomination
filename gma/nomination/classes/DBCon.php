@@ -6,10 +6,10 @@
  
     class DBCon
     {
-        private $db_host = '127.0.0.1';//192.168.193.254
+        private $db_host = '127.0.0.1';// 
         private $db_name = 'makeup_awards';//mycloud
-        private $db_username = 'root';adri
-        private $pass_word = '#4kLxMzGurQ7Z~';//adRi@1234&5$HaW9(1&Mcc
+        private $db_username = 'root'; 
+        private $pass_word = '# ~';//a 
         private $charset = 'utf8mb4';
 
         //access to server/database connection 2018-04-09 16:02:44
