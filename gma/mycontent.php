@@ -5,9 +5,9 @@
     $group_alias = "";
     $contestant_id = "";
     // $serverName = "127.0.0.1";
-    // $databaseName = "behind_voice"; //
+    // $databaseName = " "; //
     // $databaseUser = "root";
-    // $databasePassword = ''; #"#4kLxMzGurQ7Z~"; Mccg8(3P^tJVnBDsF
+    // $databasePassword = '';  
 
     // $database = mysqli_connect($serverName, $databaseUser, $databasePassword, $databaseName);
 
